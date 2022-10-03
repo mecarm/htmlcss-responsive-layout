@@ -124,6 +124,49 @@ header{
     padding: 10px;
 }
 
+/* Testimonials section */
+
+.testimonials-container{
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.testimonials-container > div > h1{
+    color: #9792E4;
+}
+
+.bg-lille{
+    background-color: #9792E4;
+    color: white;
+    padding: 20px;
+    border-radius: 30px;
+    margin: 20px 0;
+}
+
+.photo-frame{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: auto;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.photo-1 {
+    background-image: url("../img/testimonial1.jpg");
+}
+
+.photo-2 {
+    background-image: url("../img/testimonial2.jpg");
+}
+
+.photo-3 {
+    background-image: url("../img/testimonial3.jpg");
+}
+
 
 
 
