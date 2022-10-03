@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #0084FE;
+    color: white;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.justify-space-btw{
+    justify-content: space-between;
+}
+
+.header{
+    width: 90%;
+    margin: auto;
+    padding: 10px 0 ;
+}
+
+.header > div > img{
+    flex-basis: 60%;
+    width: 80%;
+}
+
+.header > div > i{
+    flex-basis: 30%;
+}
