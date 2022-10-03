@@ -4,10 +4,7 @@
     box-sizing: border-box;
 }
 
-header{
-    background-color: #0084FE;
-    color: white;
-}
+/* Utility */
 
 .flex{
     display: flex;
@@ -16,6 +13,17 @@ header{
 
 .justify-space-btw{
     justify-content: space-between;
+}
+
+.margin-10-0{
+    margin: 10px 0;
+}
+
+/* HEADER SECTION */
+
+header{
+    background-color: #0084FE;
+    color: white;
 }
 
 .header{
@@ -31,4 +39,48 @@ header{
 
 .header > div > i{
     flex-basis: 30%;
+}
+
+/* DEMO SECTION */
+
+.demo-container{
+    width: 80%;
+    margin: 30px auto;
+}
+
+.demo-container > div{
+    background-color: #B5DDFF;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px 0;
+}
+
+.demo-container > div > h1, .demo-container > div > i{
+    color: #0084FE;
+}
+
+.demo-container > div > i{
+    font-size: 80px;
+}
+
+.txt-align-center{
+    text-align: center;
+}
+
+#demo > .demo-container > div > img{
+    width: 100%;
+}
+
+.blue-btn > button{
+    padding: 10px;
+    background: #0084FE;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    font: small-caps bold 16px  Georgia, serif;
+}
+
+.blue-btn{
+    margin: 20px auto;
+    width: 60%;
 }
