@@ -231,7 +231,6 @@ header{
 
 .img-cont{
     color: #9792E4;
-    pa
 }
 
 #reference{
@@ -316,6 +315,28 @@ header{
     font-size: 0.3rem;
     vertical-align: middle;
 }
+
+/* Footer section */
+footer{
+    background-color: #333333;
+    color: white;
+    text-align: center;
+}
+
+.footer-container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.footer-container > p,
+.footer-container > div{
+    padding: 2rem 0;
+}
+
+.footer-container > div > a{
+    color: #9792E4;
+}
+
 
 
 /* @media screen and (min-width: 480px) and (max-width: 768px) {
