@@ -167,6 +167,51 @@ header{
     background-image: url("../img/testimonial3.jpg");
 }
 
+/* Benefit Section */
+
+#benefit-section{
+    background-color: #9792E4;
+    color: white;
+    text-align: center;
+}
+
+.benefit-container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.benefit-container > div{
+    background-color: white;
+    color: #9792E4;
+    text-align: left;
+    border-radius: 20px;
+    padding: 1.5rem;
+}
+
+.benefit-container > h1{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.benefit-container > div > h1{
+    font-size: 3rem;
+}
+
+.benefit-container > div > p{
+    color: grey;
+    line-height: 1.5rem;
+}
+
+.benefit-container > div > button{
+    padding: 0.8rem 2rem;
+    background-color: #9792E4;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
 
 
 
