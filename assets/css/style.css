@@ -213,7 +213,109 @@ header{
     letter-spacing: 2px;
 }
 
+/* About us section */
+.about-us-container{
+    width: 80%;
+    margin: 2rem auto;
+}
 
+.txt-cont > h1 {
+    color: #9792E4;
+    font-size: 3rem;
+    padding: 2rem 0;
+}
+
+.txt-cont{
+    line-height: 2rem;
+}
+
+.img-cont{
+    color: #9792E4;
+    pa
+}
+
+#reference{
+    background-image: url("../img/about.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+}
+
+#reference > i{
+    position: absolute;
+    right: 10px;
+    font-size: 3rem;
+}
+
+.img-cont > button{
+    background-color: #9792E4;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 20px;
+}
+
+
+/* Get started section */
+#get-started{
+    background-color: #9792E4;
+    color: white;
+}
+
+.get-started-container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.get-started-container > h3{
+    color: lightgrey;
+    letter-spacing: 0.2rem;
+    padding: 1rem 0;
+}
+
+.get-started-container > h2{
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
+
+.get-started-container > h1{
+    padding: 2rem 0;
+    font-size: 3rem;
+    color: #FDC05F;
+}
+
+.get-started-container > p{
+    line-height: 1.5rem;
+    padding: 1rem 0;
+}
+
+.get-started-container > button{
+    border: none;
+    border-radius: 20px;
+    padding: 0.5rem 2rem;
+    letter-spacing: 0.2rem;
+    background-color: white;
+    color: #9792E4;
+}
+
+.get-started-container > div{
+    padding: 1rem 0;
+}
+
+.get-started-container > div > a{
+    color: white;
+}
+
+.get-started-container > div > i{
+    font-size: 0.3rem;
+    vertical-align: middle;
+}
 
 
 /* @media screen and (min-width: 480px) and (max-width: 768px) {
